@@ -1,4 +1,4 @@
-# Self-Synthesizing Database (SSDB) 🚀
+# Self-Synthesizing Database (SSDB) 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Language: C](https://img.shields.io/badge/Language-C-blue.svg)](https://en.cppreference.com/w/c)
@@ -7,26 +7,26 @@
 
 ---
 
-## 💡 The Vision
+##  The Vision
 In traditional RDBMS, human intervention is required for schema optimization. SSDB aims to eliminate this by:
 - **Observing** incoming data patterns.
 - **Synthesizing** optimal data structures (Graphs, BSTs, or Hash-Maps) on the fly.
 - **Auto-tuning** query performance using heuristic search algorithms.
 
-## 🛠️ Key Features
+##  Key Features
 - **Dynamic Schema Synthesis:** Automatically generates and evolves internal C-structures without manual `CREATE TABLE` constraints.
 - **Hybrid Indexing Engine:** Dynamically switches between **BFS/DFS** and **B+ Trees** for optimal data traversal.
 - **High-Performance C-Core:** Direct memory management using custom Arena Allocators for near-zero latency.
 - **Social Impact Ready:** Designed to handle national-scale data problems (e.g., legal awareness or digital identity systems).
 - **Secure by Design:** Integrated cryptographic layering for every synthesized node.
 
-## 🏗️ Technical Architecture
+##  Technical Architecture
 - **Core Engine:** Written in pure C (C11/C17) for hardware-level control.
 - **Synthesis Logic:** Implements Reinforcement Learning-based heuristics.
 - **Storage:** Graph-based node architecture for maximum flexibility.
 - **Algorithms:** Heavy use of Graph Theory, Binary Search Trees, and custom Hash-functions.
 
-## 📁 Repository Structure
+##  Repository Structure
 ```text
 ├── src/                # Core engine source files (.c)
 ├── include/            # System header files (.h)
